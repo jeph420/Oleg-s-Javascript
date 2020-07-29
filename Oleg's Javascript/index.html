@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Percentage Calculators</h1>
+            <table>
+                <form id="xIsWhatPercentOfY">
+                    <tr>
+                        <td class="spanned" colspan="2"><p class="question">X is what % of Y?</p></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="number" id="numField1"> <p>^ is what % of</p>
+                        </td>
+                        <td>
+                            <input type="number" id="numField2"> <p>^ ?</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="spanned" colspan="2">
+                            <span><input type="submit" value="Calculate" id="calculate"></span>
+                        </td>         
+                    </tr>
+                </form>
+            </table>
+        <h3 id="resultField"></h3>
+        <script type="text/javascript" src="calc.js"></script>
+    </body>
+</html>
